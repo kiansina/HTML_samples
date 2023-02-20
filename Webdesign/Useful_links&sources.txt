@@ -6,3 +6,9 @@ https://www.wpkube.com/html5-cheat-sheet/
 
 Useful icons:
 https://www.w3schools.com/icons/default.asp
+
+Html samples:
+https://www.w3schools.com/html/default.asp
+
+Code examples of the course:
+https://intro-webdesign.com/resources.html
