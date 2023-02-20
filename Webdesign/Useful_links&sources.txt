@@ -1,2 +1,5 @@
 Code validator address:
 https://validator.w3.org/
+
+cheat sheet of html
+https://www.wpkube.com/html5-cheat-sheet/
