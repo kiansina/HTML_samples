@@ -12,3 +12,6 @@ https://www.w3schools.com/html/default.asp
 
 Code examples of the course:
 https://intro-webdesign.com/resources.html
+
+Free hosting:
+https://byet.host/free-hosting
