@@ -1,0 +1,13 @@
+img{display: none;}
+header{background-color:grey;}
+
+h1{color:white;
+   text-align:center;
+    }
+nav {display: left;
+     background-color:grey;
+     }
+a{color:black;
+  background-color:#C0C0C0}
+section.right{background-color:grey}
+h2{color:#080DCE}
