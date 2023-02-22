@@ -27,3 +27,7 @@ https://www.w3schools.com/css/css3_transitions.asp
 https://learn.shayhowe.com/advanced-html-css/transitions-animations/
 https://www.the-art-of-web.com/css/css-animation/
 https://www.creativebloq.com/inspiration/css-animation-examples
+
+
+
+https://codepen.io/collection/AOLapY/
