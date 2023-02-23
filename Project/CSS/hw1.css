@@ -1,0 +1,315 @@
+/*
+Together-3
+ */
+body{
+	background:#B3B3B3;
+	margin:2%;
+  padding:2%;
+	font-size: 125%;
+
+}
+
+header, footer{
+	background: #666666;
+	background: -moz-linear-gradient(top, #666666 0%, #00b7ea 100%);
+	background: -webkit-linear-gradient(#666666 0%, #00b7ea 100%);
+	background: -o-linear-gradient(#666666 0%, #00b7ea 100%);
+	background: linear-gradient(#666666 0%, #00b7ea 100%);
+
+}
+
+header{
+	text-align: center;
+	padding-bottom: 15px;
+  /*background-image: url('../images/flywheel.jpg');*/
+  background-image: url('http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg');
+background-repeat: no-repeat;
+background-position: 50% 2%;
+background-size: 1800px 400px;
+display:block;
+clear:left;
+}
+
+h1{
+	color: #ffffff;
+}
+
+nav{
+	font-variant: small-caps;
+	font-family: Arial, "Times New Roman", serif;
+	font-size: 150%;
+}
+
+nav a{
+	display: inline-block;
+	background-color: #ffffff;
+	width:15%;
+  margin: 2% 1%;
+  text-decoration:none;
+  border-radius: 5px;
+}
+
+
+
+.active{
+  color:yellow;
+  background:red;
+}
+
+h2{
+	color: #666666;
+	background: #00b7ea;
+}
+
+
+
+.left>a{
+  display: block;
+  background: #578537;
+  width:100%;
+}
+
+.left>a>img{
+  display: inline-block;
+  width:90%;
+  border-style: solid;
+  border-width: 5px;
+  margin: 10px;
+}
+
+.left{
+  display:inline-block;
+  width:20%;
+  float:left;
+  margin-right:3%;
+  padding-bottom: 150px;
+  background: #578537;
+}
+
+.right{
+  display:inline-block;
+  width:60%;
+  float:left;
+}
+
+
+
+summary{
+	font-style:normal;
+}
+
+details{
+	font-style: italic;
+}
+
+footer{
+	height:70px;
+	clear: both;
+  width:75%;
+  margin-left:13%;
+  font-size:90%;
+
+}
+img{
+	width: 75px;
+}
+
+
+
+
+/*for table*/
+/*
+Together-3
+ */
+body{
+	background:#B3B3B3;
+	margin:2%;
+  padding:2%;
+	font-size: 125%;
+
+}
+
+header, footer{
+	background: #666666;
+	background: -moz-linear-gradient(top, #666666 0%, #00b7ea 100%);
+	background: -webkit-linear-gradient(#666666 0%, #00b7ea 100%);
+	background: -o-linear-gradient(#666666 0%, #00b7ea 100%);
+	background: linear-gradient(#666666 0%, #00b7ea 100%);
+
+}
+
+header{
+	text-align: center;
+	padding-bottom: 15px;
+  /*background-image: url('../images/flywheel.jpg');*/
+  background-image: url('http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg');
+background-repeat: no-repeat;
+background-position: 50% 2%;
+background-size: 1800px 400px;
+display:block;
+clear:left;
+}
+
+h1{
+	color: #ffffff;
+}
+
+nav{
+	font-variant: small-caps;
+	font-family: Arial, "Times New Roman", serif;
+	font-size: 150%;
+}
+
+nav a{
+	display: inline-block;
+	background-color: #ffffff;
+	width:15%;
+  margin: 2% 1%;
+  text-decoration:none;
+  border-radius: 5px;
+}
+
+
+
+.active{
+  color:yellow;
+  background:red;
+}
+
+h2{
+	color: #666666;
+	background: #00b7ea;
+}
+
+
+
+.left>a{
+  display: block;
+  background: #578537;
+  width:100%;
+}
+
+.left>a>img{
+  display: inline-block;
+  width:90%;
+  border-style: solid;
+  border-width: 5px;
+  margin: 10px;
+}
+
+.left{
+  display:inline-block;
+  width:20%;
+  float:left;
+  margin-right:3%;
+  padding-bottom: 150px;
+  background: #578537;
+}
+
+.right{
+  display:inline-block;
+  width:60%;
+  float:left;
+}
+
+
+
+summary{
+	font-style:normal;
+}
+
+details{
+	font-style: italic;
+}
+
+footer{
+	height:70px;
+	clear: both;
+  width:75%;
+  margin-left:13%;
+  font-size:90%;
+
+}
+img{
+	width: 75px;
+}
+
+
+
+
+/*Set the table color, border, and spacing...*/
+table{
+	color:black;
+	border-spacing: 0;
+	border: 3px solid black;
+  width:100%;
+  text-align:center;
+	-webkit-border-radius: 25px 25px 25px 25px;
+	border-radius: 25px 25px 25px 25px;
+}
+/*Alternate colors between even and odd weeks*/
+tr:nth-child(odd) {
+	background: #99FF33;
+  opacity:0.6;
+}
+tr:nth-child(even) {
+	background: #66CCFF;
+  opacity:0.6;
+}
+
+tr:last-child{
+	-webkit-border-radius: 25px 25px 0 0;
+	border-radius: 0 0 25px 25px;
+}
+tr:last-child>td:first-child {
+	-webkit-border-radius: 0 0 0 25px;
+	border-radius: 0 0 0 25px;
+}
+
+tr:last-child>td:last-child{
+	-webkit-border-radius: 0 0 25px 0;
+	border-radius: 0 0 25px 0;
+}
+
+
+th{
+	text-transform: uppercase;
+	background-color: #666666;
+	color:#ffffff;
+	font-size: 120%;
+}
+
+th:first-child{-webkit-border-radius: 25px 25px 0 0;
+	border-radius: 25px 0 0 0;
+}
+
+th:last-child{-webkit-border-radius: 25px 25px 0 0;
+	border-radius: 0 25px 0 0;
+}
+
+th,td{
+	margin: 2px;
+	padding-bottom: 2px;
+}
+
+td{
+	width:50px;
+	height:50px;
+	vertical-align:center;
+}
+
+td:first-child{
+  text-align:left;
+}
+
+td{
+  opacity: 0.6;
+}
+
+tr:hover{
+  opacity:1
+}
+
+td:hover{
+  opacity:1
+}
